@@ -74,10 +74,6 @@ else {
     }
 }
 
-console.log("Elegiste " + userChoice)
-console.log("La computadora eligio " + computerChoice)
-console.log(matchResult)
-
 document.getElementById("userChoice").innerHTML = userChoice;
 document.getElementById("computerChoice").innerHTML = computerChoice;
-document.getElementById("matchResult").innerHTML = matchResult; 
+document.getElementById("matchResult").innerHTML = matchResult;
