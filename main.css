@@ -1,3 +1,20 @@
+h1 {
+  font-family: "Bebas Neue", cursive;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 3%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .change-color {
   fill: white;
 }/*# sourceMappingURL=main.css.map */
