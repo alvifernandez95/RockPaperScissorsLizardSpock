@@ -17,8 +17,8 @@
     <header class="p-3 bg-dark text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" role="img" width="40" height="32"><img class="change-color" src="imagenes/logo.svg" width="40" height="32"></svg>
               </a>
               <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="./index.html" class="nav-link px-2 text-secondary">Bienvenido</a></li>
@@ -33,21 +33,34 @@
               </form>
       
               <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
+                <button type="button" class="btn btn-outline-light me-2">Ingresar</button>
+                <button type="button" class="btn btn-warning">Registrarse</button>
               </div>
             </div>
           </div>
     </header>
     <main>
         <h1>Bienvenido a Piedra-Papel-Tijera-Lagartija-Spock</h1>
-        <h2>Las reglas del juego son las siguientes:</h2>
-        <p>Las tijeras cortan al papel, el papel cubre a la roca, la roca aplasta a la lagartija, la lagartija envenena a Spock, Spock rompe las tijeras, las tijeras decapitan a la lagartija, la lagartija se come el papel, el papel refuta a Spock, Spock vaporiza la piedra y como siempre, la piedra aplasta a las tijeras.</p>
+        <h2>Conoce más sobre este divertido juego:</h2>
+        <p>Este juego no es más que una divertida variante del clásico Piedra Papel o Tijera, propuesto por el personaje Sheldon Cooper en el Episodio "The Lizard Spock expansion" de la 2da Temporada de la sitcom The Big Bang Theory.</p>
         <img src="./imagenes/rock-paper-scissors-lizard-spock scheme.png" class="img-fluid" alt="diagrama de como funciona el juego de Piedra-Papel-Tijera-Lagartija-Spock">
     </main>
-    <footer>
-
-    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="30"><img width="30" height="30" src="./imagenes/logo.svg"></svg>
+            </a>
+            <span class="text-muted">© 2022 Alvaro Fernandez</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
     <!--Javascript-->
     <script src="app.js"></script>
     <!--Bootstrap-->
