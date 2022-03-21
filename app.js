@@ -61,7 +61,7 @@ else {
         } else if (userChoice=="Spock") {
             matchResult = "Perdiste :(";
         }
-    } else if(computerChoice=="Spock"); {
+    } else if(computerChoice=="Spock") {
         if (userChoice=="Piedra") {
             matchResult = "Perdiste :(";
         } else if (userChoice=="Papel") {
