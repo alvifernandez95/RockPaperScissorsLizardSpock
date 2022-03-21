@@ -33,4 +33,8 @@ p {
 
 .logoGamePlay:hover {
   transform: scale(1.1);
+}
+
+#mainImage {
+  margin-left: 3%;
 }/*# sourceMappingURL=main.css.map */
