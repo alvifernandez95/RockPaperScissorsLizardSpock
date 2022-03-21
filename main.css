@@ -17,4 +17,20 @@ p {
 
 .change-color {
   fill: white;
+}
+
+#gamePlayContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logoGamePlay {
+  height: 80%;
+  width: 80%;
+  transition: transform 0.2s;
+}
+
+.logoGamePlay:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */
