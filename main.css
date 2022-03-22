@@ -20,9 +20,10 @@ p {
 }
 
 #gamePlayContainer {
+  margin-left: 2%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logoGamePlay {
