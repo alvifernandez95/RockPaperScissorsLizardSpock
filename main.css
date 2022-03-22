@@ -36,6 +36,10 @@ p {
   transform: scale(1.1);
 }
 
+#videoContainer {
+  margin-left: 3%;
+}
+
 #mainImage {
   margin-left: 3%;
 }/*# sourceMappingURL=main.css.map */
